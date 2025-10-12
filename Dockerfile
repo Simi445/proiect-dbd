@@ -13,3 +13,4 @@ COPY dataset.csv /app/dataset.csv
 
 COPY 01_database_setup.sql /docker-entrypoint-initdb.d/01_database_setup.sql
 COPY 02_staging_schema.sql /docker-entrypoint-initdb.d/02_staging_schema.sql
+COPY 03_production_schema.sql /docker-entrypoint-initdb.d/03_production_schema.sql  
