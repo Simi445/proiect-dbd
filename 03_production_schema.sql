@@ -32,7 +32,7 @@ CREATE TABLE production.career_outcomes (
     student_id VARCHAR(10) PRIMARY KEY
         REFERENCES production.student(student_id) ON DELETE CASCADE,
     job_offers INT CHECK (job_offers BETWEEN 0 AND 5),
-    starting_salary INT CHECK (starting_salary BETWEEN 25000 AND 150000),
+    starting_salary INT CHECK (starting_salary BETWEEN 25000 AND 1000000),
     career_satisfaction INT CHECK (career_satisfaction BETWEEN 1 AND 10),
     years_to_promotion INT CHECK (years_to_promotion BETWEEN 1 AND 5),
     current_job_level VARCHAR(20) CHECK (current_job_level IN ('Entry', 'Mid', 'Senior', 'Executive')),
@@ -116,6 +116,6 @@ $$ LANGUAGE plpgsql;
 
 SELECT cron.schedule(
     'etl-job',    
-    '*/5 * * * *',             
+    '*/2 * * * *',             
     $$ SELECT load_production_data(); $$
 );
