@@ -4,14 +4,14 @@
 This project implements a fully automated ETL (Extract, Transform, Load) pipeline for processing student career data using PostgreSQL. The system automatically loads, processes, and structures student career outcome data from JSON format into a normalized relational database.
 
 ## Dataset Description
-- **Source**: Student Career Dataset (JSON format)
+- **Source**: Student Career Dataset (CSV format)
 - **Records**: 400 student records
 - **Fields**: Student demographics, academic performance, career outcomes, and professional development metrics
 
 ## Architecture
 
 ### Data Flow
-1. **Extract**: Raw JSON data loaded into staging table
+1. **Extract**: CSV loaded into staging table
 2. **Transform**: Data validation, cleansing, and normalization
 3. **Load**: Processed data inserted into normalized production schema
 
@@ -23,27 +23,18 @@ This project implements a fully automated ETL (Extract, Transform, Load) pipelin
 ## Project Structure
 ```
 proiectdbd/
-├── dataset.json              # Source data
-├── sql/
-│   ├── schemas/             # Database schema definitions
-│   ├── procedures/          # Stored procedures and functions
-│   └── jobs/               # Scheduled job definitions
-├── scripts/                # Utility scripts
-├── docs/                  # Documentation
+├── dataset.json
+├── Dockerfile.json      
+├── script01.sql ....
 └── README.md
 ```
 
 ## Requirements
-- PostgreSQL 12+
-- pg_cron extension for job scheduling
-- JSON processing capabilities
+- Docker installed and up to date
 
 ## Setup Instructions
-1. Install PostgreSQL with pg_cron extension
-2. Create database: `student_career_etl`
-3. Run schema creation scripts
-4. Configure automated jobs
-5. Load initial data
+1. Run PostgreSQL using the dockerfile image.
+2. Check if everything from the scripts loaded fine
 
 ## Author
-Database Systems Project - [Your Name]
+Database Systems Project - Simion, Dorin, Iarina, Nora
