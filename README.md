@@ -33,8 +33,33 @@ proiectdbd/
 - Docker installed and up to date
 
 ## Setup Instructions
-1. Run PostgreSQL using the dockerfile image.
-2. Check if everything from the scripts loaded fine
+
+### 1. Build the Docker Image
+```bash
+docker build -t postgres-test .
+```
+
+### 2. Run the PostgreSQL Container
+```bash
+docker run -d --name postgres-job-test -e POSTGRES_PASSWORD=password -p 5432:5432 postgres-test
+```
+
+### 3. Check Container Status
+```bash
+docker ps
+```
+This command shows all running containers to verify the setup.
+
+### 4. Connect to the Database
+```bash
+docker exec -it postgres-job-test psql -U postgres -d test_db
+```
+
+### 5. Verify ETL Pipeline
+Once connected, you can check the automated ETL processes:
+- Staging data: `SELECT * FROM staging.events LIMIT 5;`
+- Production data: `SELECT * FROM production.student LIMIT 5;`
+- Job logs: `SELECT * FROM etl_logs.job_runs ORDER BY start_date DESC LIMIT 10;`
 
 ## Author
 Database Systems Project - Simion, Dorin, Iarina, Nora
