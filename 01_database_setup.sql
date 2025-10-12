@@ -1,0 +1,9 @@
+CREATE database test_db;
+
+\c test_db;
+
+CREATE EXTENSION IF NOT EXISTS pg_cron;
+
+CREATE SCHEMA IF NOT EXISTS staging;
+CREATE SCHEMA IF NOT EXISTS production;
+CREATE SCHEMA IF NOT EXISTS etl_logs;
