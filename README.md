@@ -23,13 +23,9 @@ This project implements a fully automated ETL (Extract, Transform, Load) pipelin
 ## Project Structure
 ```
 proiectdbd/
-├── dataset.json              # Source data
-├── sql/
-│   ├── schemas/             # Database schema definitions
-│   ├── procedures/          # Stored procedures and functions
-│   └── jobs/               # Scheduled job definitions
-├── scripts/                # Utility scripts
-├── docs/                  # Documentation
+├── dataset.json
+├── Dockerfile.json      
+├── script01.sql ....
 └── README.md
 ```
 
@@ -39,11 +35,8 @@ proiectdbd/
 - JSON processing capabilities
 
 ## Setup Instructions
-1. Install PostgreSQL with pg_cron extension
-2. Create database: `student_career_etl`
-3. Run schema creation scripts
-4. Configure automated jobs
-5. Load initial data
+1. Install PostgreSQL using the dockerfile
+2. Check if everything from the scripts loaded fine
 
 ## Author
-Database Systems Project - [Your Name]
+Database Systems Project - Simion, Dorin, Iarina, Nora
