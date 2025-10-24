@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.18)  18 OCT 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.18)  24 OCT 2025 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,11 +499,10 @@ LaTeX Font Info:    ... okay on input line 51.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 51.
-(documentation.out) (documentation.out)
 \@outlinefile=\write4
 \openout4 = `documentation.out'.
 
- (C:\Users\norag\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\norag\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count339
 \scratchdimen=\dimen294
@@ -528,13 +527,38 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 [1
 
 {C:/Users/norag/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Overfull \hbox (3.47699pt too wide) in paragraph at lines 115--116
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
  []
 
 
@@ -543,97 +567,109 @@ Overfull \hbox (3.47699pt too wide) in paragraph at lines 115--116
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \end{center}
-                   [1]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 120.
+l.116 \end{longtable}
+                      [1]
 
-Overfull \hbox (54.39175pt too wide) in paragraph at lines 124--126
-\OT1/cmtt/m/n/10.95 etl[]logs.job[]runs\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 logId PK\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 jobname\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 status\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 error[]message\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 start[]date\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 end[]date\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 records[]count\OT1/cmr/m/n/10.95 ). 
- []
-
-
-Overfull \hbox (50.16942pt too wide) in paragraph at lines 124--126
-\OT1/cmr/m/n/10.95 Helper func-tions: \OT1/cmtt/m/n/10.95 return[]max[]date()\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 update[]job[]run()\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 update[]job[]skipped()\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 update[]job[]failed()
- []
-
-
-Overfull \hbox (2.49316pt too wide) in paragraph at lines 131--132
-[]\OT1/cmtt/m/n/10.95 production.skills[]extracurriculars\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 student[]id PK, FK\OT1/cmr/m/n/10.95 , in-tern-ship-s/pro-ject-s/cer-ti-fi-ca-
- []
-
-
-Overfull \hbox (7.66463pt too wide) in paragraph at lines 132--133
-[]\OT1/cmtt/m/n/10.95 production.career[]outcomes\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 student[]id PK, FK\OT1/cmr/m/n/10.95 , of-fer-s/salary/sat-is-fac-tion/pro-mo-tion/job
- []
-
-
-Overfull \hbox (3.86409pt too wide) in paragraph at lines 143--145
-\OT1/cmr/bx/n/10.95 Logic: \OT1/cmr/m/n/10.95 com-pares \OT1/cmtt/m/n/10.95 pg[]stat[]file('.../dataset.csv').modification \OT1/cmr/m/n/10.95 with the MAX(\OT1/cmtt/m/n/10.95 end[]date\OT1/cmr/m/n/10.95 )
- []
+LaTeX Warning: Reference `fig:etl_arch' on page 2 undefined on input line 130.
 
 
 
 [2]
-Overfull \hbox (2.24811pt too wide) in paragraph at lines 152--153
-\OT1/cmr/bx/n/10.95 Function: \OT1/cmtt/m/n/10.95 load[]production[]data() \OT1/cmr/m/n/10.95 per-forms four \OT1/cmtt/m/n/10.95 INSERT ...ON CONFLICT DO UPDATE \OT1/cmr/m/n/10.95 state-
+Overfull \hbox (60.38162pt too wide) in paragraph at lines 170--171
+ [] 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 154.
+c:/Users/norag/OneDrive/Desktop/4th Year/DBD Project/proiect-dbd/documentation.tex:173: Undefined control sequence.
+l.173 \captionof
+                {figure}{Automated ETL Architecture integrating staging, nor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (49.26964pt too wide) in paragraph at lines 176--177
-[]\OT1/cmr/m/n/10.95 Run: \OT1/cmtt/m/n/10.95 docker run --name dbd-pg -p 5432:5432 -e POSTGRES[]PASSWORD=postgres dbd-pipeline 
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 183.
+
+Overfull \hbox (51.35008pt too wide) in paragraph at lines 198--200
+\OT1/cmtt/m/n/10.95 etl[]logs.job[]runs\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 logId PK\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 jobname\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 status\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 error[]message\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 start[]date\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 end[]date\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 records[]count\OT1/cmr/m/n/10.95 ) 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 184.
 
 
 [3]
-Overfull \hbox (71.44493pt too wide) in paragraph at lines 208--209
-[]\OT1/cmr/bx/n/10.95 Indexes for per-for-mance: \OT1/cmtt/m/n/10.95 CREATE UNIQUE INDEX ON staging.events ((content->>'student[]id'));
+Overfull \hbox (13.59602pt too wide) in paragraph at lines 218--220
+[]\OT1/cmtt/m/n/10.95 skills[]extracurriculars\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 student[]id PK, FK\OT1/cmr/m/n/10.95 , in-tern-ships, projects, cer-ti-fi-ca-tions, soft skills,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+[4]
+
+[5]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 327.
+
+
+[6]
+
+[7]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 434.
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
 []|\OT1/cmr/m/n/10.95 Create DB, schemas (\OT1/cmtt/m/n/10.95 staging, production,
  []
 
-[4]
+[9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 226.
+(Font)              <10.95> on input line 483.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 226.
+(Font)              <8> on input line 483.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 226.
+(Font)              <6> on input line 483.
 
-Overfull \hbox (28.5704pt too wide) in paragraph at lines 226--227
+Overfull \hbox (28.5704pt too wide) in paragraph at lines 483--484
 \OT1/cmr/m/n/10.95 This doc-u-ment uses stan-dard L[]T[]X pack-ages. Com-pile with \OT1/cmtt/m/n/10.95 latexmk -pdf DBD[]Documentation.tex\OT1/cmr/m/n/10.95 .
  []
 
 
 
-[5] (documentation.aux)
+[10] (documentation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-Package rerunfilecheck Info: File `documentation.out' has not changed.
-(rerunfilecheck)             Checksum: 66804E0AF61A8E75E4FE070085E51771;1771.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `documentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `documentation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  66804E0AF61A8E75E4FE070085E51771;1771.
  ) 
 Here is how much of TeX's memory you used:
  22109 strings out of 468081
- 411160 string characters out of 5425788
- 813104 words of memory out of 5000000
- 50420 multiletter control sequences out of 15000+600000
+ 410986 string characters out of 5425788
+ 812954 words of memory out of 5000000
+ 50411 multiletter control sequences out of 15000+600000
  633469 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,87p,501b,1280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,87p,650b,1279s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\norag\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/norag/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on documentation.pdf (6 pages, 167519 bytes).
+Output written on documentation.pdf (11 pages, 183528 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
