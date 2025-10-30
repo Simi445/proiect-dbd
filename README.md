@@ -62,4 +62,4 @@ Once connected, you can check the automated ETL processes:
 - Job logs: `SELECT * FROM etl_logs.job_runs ORDER BY start_date DESC LIMIT 10;`
 
 ## Author
-Database Systems Project - Simion, Dorin, Iarina, Nora
+Database Systems Project - Simion, Dorin, Iarina, Nora, Rares
